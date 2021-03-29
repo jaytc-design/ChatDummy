@@ -1,0 +1,2 @@
+local clientFunctions = {}
+local serverFunctions = {}
