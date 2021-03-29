@@ -2,7 +2,7 @@ local clientFunctions = {}
 local serverFunctions = {}
 
 function clientFunctions:ChatMakeSystemMessage(...)
-    local succ,err = pcall(Function()
+    local succ,err = pcall(function()
         game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {...})
     end)
     return succ,err
